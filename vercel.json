@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "headers": [
+    {
+      "source": "/Kushal_Kumar_B_Resume.pdf",
+      "headers": [
+        { "key": "Content-Type", "value": "application/pdf" },
+        { "key": "Content-Disposition", "value": "inline; filename=\"Kushal_Kumar_B_Resume.pdf\"" },
+        { "key": "X-Content-Type-Options", "value": "nosniff" }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
